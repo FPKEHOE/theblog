@@ -34,6 +34,10 @@ a{
     font-size: 32px;
 }
 
+a:hover{
+    color: #67DA01
+}
+
 p{
     font-family: "News Cycle", sans-serif;
   font-weight: 400;
@@ -41,8 +45,68 @@ p{
   font-size: 20px;
 }
 
-article{
+#firstbox{
     display: grid;
-    grid-template-columns: repeat (12, 1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
 }
 
+#secondbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+}
+
+#thirdbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+}
+
+#firstp{
+    border: 5px solid #00A3FF;
+    background-color: white;
+    grid-column: 2/6;
+}
+
+#secondp{
+    border: 5px solid #00A3FF;
+    background-color: white;
+    grid-column: 8/12;
+}
+
+#thirdp{
+    border: 5px solid #00A3FF;
+    background-color: white;
+    grid-column: 2/5;
+}
+
+#images{
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    align-items: center;
+}
+
+#doctor{
+width: 450px;
+height: auto;
+grid-column: 1/4;
+}
+
+#detective{
+    width: 400px;
+    height: auto;
+    grid-column: 4/8;
+}
+
+#scientist{
+     width: 500px;
+     height: auto;
+     grid-column: 8/12;
+}
+        
+#cheese{
+    width:1440px;
+}
