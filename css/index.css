@@ -15,6 +15,10 @@ body{
     margin-top: 120px;
 }
 
+#subtitle{
+    padding-bottom: 30px;
+}
+
 nav{
 background-color: #00A3FF;
 height: 100px;
@@ -50,18 +54,23 @@ p{
 }
 
 #firstbox{
+    display:flex;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-column-gap: 10px;
+    align-items:center;
 }
 
 #secondbox{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-column-gap: 10px;
+    align-items:center;
+    padding-top: 20px;
 }
 
 #thirdbox{
+    display:flex;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-column-gap: 10px;
@@ -71,43 +80,73 @@ p{
     border: 5px solid #00A3FF;
     background-color: white;
     grid-column: 2/6;
+    padding: 20px 20px 20px 20px;
 }
 
 #secondp{
     border: 5px solid #00A3FF;
     background-color: white;
     grid-column: 8/12;
+    padding: 20px 20px 20px 20px;
 }
 
 #thirdp{
     border: 5px solid #00A3FF;
     background-color: white;
-    grid-column: 2/5;
+    grid-column: 3/11;
+    padding: 20px 20px 20px 20px;
 }
 
 #images{
     display: flex;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-column-gap: 30px;
     align-items: center;
+    padding: 40px 0px 20px 0px;
 }
 
 #doctor{
-width: 450px;
-height: auto;
-grid-column: 1/4;
+    width: 450px;
+    height: auto;
+    padding-right: 20px;
 }
 
 #detective{
     width: 400px;
     height: auto;
-    grid-column: 4/8;
 }
 
 #scientist{
      width: 500px;
      height: auto;
-     grid-column: 8/12;
 }
         
+article{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content: center;
+}
+
+#group1{
+height:400px;
+width:auto;
+grid-column: 8/12;
+}
+
+#group2{
+height:400px;
+width:auto;
+grid-column: 2/5;
+}
+
+#backtotop{
+   font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #00A3FF;
+    font-size: 35px;
+    margin-left: 1180px;
+}
+
+#backtotop:hover{
+    color: #67DA01
+}

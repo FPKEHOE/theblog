@@ -1,0 +1,115 @@
+body{
+    background-image: url("../img/background.jpg");
+}
+
+nav{
+    background-color: #00A3FF;
+    height: 100px;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    position: fixed; 
+    top: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 32px;
+    }
+
+    a:hover{
+        color: #67DA01
+    }
+
+    #title{
+        margin-top: 120px;
+    }
+
+    h1{
+        font-family: "Luckiest Guy", cursive;
+        font-weight: 400;
+        font-style: normal;
+        color: #00A3FF;
+        font-size: 64px;
+        text-align: center;
+    }
+
+    p{
+        font-family: "News Cycle", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 20px;
+      border: 5px solid #00A3FF;
+        background-color: white;
+        padding: 20px 20px 20px 20px;
+    }
+
+    #firstp{
+    margin-left:20px;
+    margin-right:20px;
+    }
+   
+    #secondp{
+        margin-left:100px;
+        margin-right:80px;
+    }
+
+    #thirdp{
+
+    }
+
+    #grid{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 60px;
+    }
+
+    #secondi{
+        height:500px;
+        width:auto;
+        padding-bottom: 0px;
+        padding-right: 50px;
+    }
+
+   #secondc{
+    border: none;
+    padding: 0px 60px 0px 30px;
+    font-size: 18px;
+    text-align:center;
+    background-color: none;
+   }
+    
+
+   #firstc{
+    border: none;
+    padding: 0px 0px 0px 0px;
+    font-size: 18px;
+    text-align:center;
+    background-color: transparent;
+   }
+    
+#firsti{
+    height:auto;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+#firstp{
+    margin-top: 70px;
+    margin-right: 250px;
+    margin-left: 250px;
+}
+
+    
