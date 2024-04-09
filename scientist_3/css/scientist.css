@@ -1,0 +1,248 @@
+body{
+    background-image: url("../img/background.jpg");;
+}
+
+nav{
+    background-color: #00A3FF;
+    height: 60px;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    position: fixed; 
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    }
+
+    .link{
+        padding-right: 40px;
+        padding-top: 10px;
+        font-size: 30px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 32px;
+    }
+
+    a:hover{
+        color: #67DA01
+    }
+
+    h1{
+        font-family: "Luckiest Guy", cursive;
+        font-weight: 400;
+        font-style: normal;
+        color: #00A3FF;
+        font-size: 64px;
+        text-align: center;
+        margin-top: 120px;
+    }
+
+    p{
+        font-family: "News Cycle", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 20px;
+      border: 5px solid #00A3FF;
+        background-color: white;
+        padding: 20px 20px 20px 20px;
+    }
+    
+    #backtotop{
+        font-family: "Luckiest Guy", cursive;
+         font-weight: 400;
+         font-style: normal;
+         color: #00A3FF;
+         font-size: 35px;
+         margin-left: 83%;
+         
+     }
+     
+     #backtotop:hover{
+         color: #67DA01
+     }
+    
+    
+    
+    
+    
+
+
+
+
+    
+    #scienceexperiment{}
+    
+    #firsti{
+        height:auto;
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+        width: 66%;
+        margin-top:70px;
+    }
+    
+    #firstc{
+            border: 1px solid white;
+        padding: 0px 0px 0px 0px;
+        font-size: 15px;
+        text-align:center;
+        background-color: white;
+        margin: 0px 0px 0px 0px;
+        width: 40%;
+        height:auto;
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    
+    
+    #break5{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+    
+    
+    #firstp{
+        
+        margin-right: 50px;
+    }
+    
+    #thebreak5{
+        height: 400px;
+    width: auto;
+    margin-right: 90px;
+    }
+    
+    
+    
+    #fishing{}
+    
+    #secondi{
+        height:auto;
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+        width: 60%;
+        margin-top:70px;
+    }
+    
+    #secondc{
+        border: 1px solid white;
+        padding: 0px 0px 0px 0px;
+        font-size: 15px;
+        text-align:center;
+        background-color: white;
+        margin: 0px 0px 0px 0px;
+        width: 40%;
+        height:auto;
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+     
+    
+    #row{
+    margin-top:100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    }
+    
+    #viewingmachine{
+        margin-left:80px;
+    }
+    
+    #thirdi{
+        height:450px;
+            width:auto;
+            padding-bottom: 0px;
+            padding-right: 0px;
+            margin-bottom: 0px;
+    }
+    
+    #thirdc{
+        border: 1px solid white;
+        padding: 0px 0px 0px 0px;
+        font-size: 15px;
+        text-align:center;
+        background-color: white;
+        margin: 0px 0px 0px 0px;
+        width: 50%;
+        height:auto;
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    #secondp{
+        margin-left:100px;
+        margin-right:80px;
+        margin-top:0px;
+    }
+    
+    
+    
+    #break6{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 100px;
+    }
+    
+    #thirdp{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    #thebreak6{
+        height: 400px;
+    width: auto;
+    margin-right: 90px;
+    }
+    
+    
+    
+    
+    
+    #rockdigging{}
+    
+    #fourthi{
+        height:auto;
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+        width: 65%;
+        margin-top:100px;
+    }
+    
+    #fourthc{
+        border: 1px solid white;
+        padding: 0px 0px 0px 0px;
+        font-size: 15px;
+        text-align:center;
+        background-color: white;
+        margin: 0px 0px 0px 0px;
+        width: 40%;
+        height:auto;
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    

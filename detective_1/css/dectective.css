@@ -93,7 +93,7 @@ nav{
     }
 
    #secondc{
-    border: none;
+    border: 1px solid white;
     padding: 0px 0px 0px 30px;
     font-size: 15px;
     text-align:center;
@@ -103,12 +103,17 @@ nav{
     
 
    #firstc{
-    border: none;
+    border: 1px solid white;
     padding: 0px 0px 0px 0px;
     font-size: 15px;
     text-align:center;
-    background-color: transparent;
+    background-color: white;
     margin: 0px 0px 0px 0px;
+    width: 40%;
+    height:auto;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
    }
     
 #firsti{
@@ -135,7 +140,7 @@ nav{
 }
 
 #thirdc{
-    border: none;
+    
     margin: 0px 300px 0px 300px;
     font-size: 15px;
     text-align:center;
@@ -145,7 +150,7 @@ nav{
 }
 
 #fourthc{
-    border: none;
+    
     margin: 0px 300px 0px 300px;
     font-size: 15px;
     text-align:center;
@@ -169,7 +174,7 @@ nav{
      font-style: normal;
      color: #00A3FF;
      font-size: 35px;
-     margin-left: 1180px;
+     margin-left: 83%;
  }
  
  #backtotop:hover{

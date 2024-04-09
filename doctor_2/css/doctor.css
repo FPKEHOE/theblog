@@ -4,19 +4,26 @@ body{
 
 nav{
     background-color: #00A3FF;
-    height: 100px;
+    height: 60px;
     font-family: "Luckiest Guy", cursive;
     font-weight: 400;
     font-style: normal;
     color: white;
     position: fixed; 
     top: 0px;
+    left: 0px;
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: end;
     align-items: center;
+    }
+
+    .link{
+        padding-right: 40px;
+        padding-top: 10px;
+        font-size: 30px;
     }
     
     a{
@@ -49,21 +56,10 @@ nav{
         padding: 20px 20px 20px 20px;
     }
     
-p{
-        margin-top: 70px;
-        margin-right: 250px;
-        margin-left: 250px;
-    }
+
     
 
-img{
-    height:auto;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-  margin-top:70px;
-}
+
 
 #backtotop{
     font-family: "Luckiest Guy", cursive;
@@ -71,7 +67,7 @@ img{
      font-style: normal;
      color: #00A3FF;
      font-size: 35px;
-     margin-left: 1180px;
+     margin-left: 83%;
      
  }
  
@@ -79,6 +75,174 @@ img{
      color: #67DA01
  }
 
- #fourthi{
-margin-bottom:20px;
- }
+
+
+
+
+
+#checkingears{}
+
+#firsti{
+    height:auto;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 70%;
+    margin-top:70px;
+
+}
+
+#firstc{
+        border: 1px solid white;
+    padding: 0px 0px 0px 0px;
+    font-size: 15px;
+    text-align:center;
+    background-color: white;
+    margin: 0px 0px 0px 0px;
+    width: 40%;
+    height:auto;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+#break3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+#firstp{
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+#thebreak3{
+    height: 400px;
+width: auto;
+margin-right: 90px;
+}
+
+
+
+#moppingpuddle{}
+
+#secondi{
+    height:auto;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 70%;
+    margin-top:70px;
+}
+
+#secondc{
+    border: 1px solid white;
+    padding: 0px 0px 0px 0px;
+    font-size: 15px;
+    text-align:center;
+    background-color: white;
+    margin: 0px 0px 0px 0px;
+    width: 40%;
+    height:auto;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ 
+
+#row{
+margin-top:100px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+}
+
+#xray{
+    margin-left:80px;
+}
+
+#thirdi{
+    height:450px;
+        width:auto;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        margin-bottom: 0px;
+}
+
+#thirdc{
+    border: 1px solid white;
+    padding: 0px 0px 0px 0px;
+    font-size: 15px;
+    text-align:center;
+    background-color: white;
+    margin: 0px 0px 0px 0px;
+    width: 40%;
+    height:auto;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#secondp{
+    margin-left:100px;
+    margin-right:80px;
+    margin-top:0px;
+}
+
+
+
+#break4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#thirdp{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#thebreak4{
+    height: 400px;
+width: auto;
+margin-right: 90px;
+}
+
+
+
+
+
+#makingbed{}
+
+#fourthi{
+    height:auto;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 75%;
+    margin-top:100px;
+}
+
+#fourthc{
+    border: 1px solid white;
+    padding: 0px 0px 0px 0px;
+    font-size: 15px;
+    text-align:center;
+    background-color: white;
+    margin: 0px 0px 0px 0px;
+    width: 40%;
+    height:auto;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
