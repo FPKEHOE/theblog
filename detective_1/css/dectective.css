@@ -1,22 +1,31 @@
 body{
     background-image: url("../img/background.jpg");
+    width: 100%;
+    height: auto;
 }
 
 nav{
     background-color: #00A3FF;
-    height: 100px;
+    height: 60px;
     font-family: "Luckiest Guy", cursive;
     font-weight: 400;
     font-style: normal;
     color: white;
     position: fixed; 
     top: 0px;
+    left: 0px;
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: end;
     align-items: center;
+    }
+    
+    .link{
+        padding-right: 40px;
+        padding-top: 10px;
+        font-size: 30px;
     }
     
     a{
@@ -31,6 +40,7 @@ nav{
 
     #title{
         margin-top: 120px;
+        margin-bottom: 50px;
     }
 
     h1{
@@ -52,16 +62,11 @@ nav{
         padding: 20px 20px 20px 20px;
     }
 
-    #firstp{
-    margin-left:20px;
-    margin-right:20px;
-    margin-top:80px;
-    }
    
     #secondp{
         margin-left:100px;
         margin-right:80px;
-        margin-top:80px;
+        margin-top:0px;
     }
 
     #thirdp{
@@ -76,7 +81,7 @@ nav{
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
-        padding-top: 60px;
+        
     }
 
     #secondi{
@@ -89,18 +94,18 @@ nav{
 
    #secondc{
     border: none;
-    padding: 0px 60px 0px 30px;
-    font-size: 18px;
+    padding: 0px 0px 0px 30px;
+    font-size: 15px;
     text-align:center;
     background-color: white;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 50px 0px 0px;
    }
     
 
    #firstc{
     border: none;
     padding: 0px 0px 0px 0px;
-    font-size: 18px;
+    font-size: 15px;
     text-align:center;
     background-color: transparent;
     margin: 0px 0px 0px 0px;
@@ -132,7 +137,7 @@ nav{
 #thirdc{
     border: none;
     margin: 0px 300px 0px 300px;
-    font-size: 18px;
+    font-size: 15px;
     text-align:center;
     background-color: white;
     border: 1px solid white;
@@ -142,7 +147,7 @@ nav{
 #fourthc{
     border: none;
     margin: 0px 300px 0px 300px;
-    font-size: 18px;
+    font-size: 15px;
     text-align:center;
     background-color: white;
     border: 1px solid white;
@@ -170,3 +175,41 @@ nav{
  #backtotop:hover{
      color: #67DA01
  }
+
+
+
+#break1{
+height: 400px;
+width: auto;
+margin-left: 90px;
+}
+
+#firstp{
+    margin-left: 150px;
+    margin-right: 100px;
+    }
+
+
+#row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#break2{
+    height: 400px;
+    width: auto;
+    margin-right:50px;
+    margin-top: 30px;
+    }
+    
+
+#row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
