@@ -247,10 +247,12 @@ footer{
         justify-content: center;
         opacity: 0;
         transition: opacity 0.25s;
+
 }
 
-#scientisttitle:hover{
+#scientistpic:hover #scientisttitle {
     opacity: 1;
+
 }
 
 
